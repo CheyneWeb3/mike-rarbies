@@ -129,7 +129,7 @@ You can toggle triangular arbs on/off.
 
 * **Gas**: Each execution is two or three swaps. Your `MIN_PROFIT` should be above typical gas for your chain.
 * **Slippage/risk**: The system uses **live reserves** but the market can move between simulation and mining. If profit disappears, the contract reverts and you only pay gas on the reverted attempt.
-* **MEV exposure**: Public mempool means arbs can be copied or sandwiched. Keeping `MIN_PROFIT` firm and scanning frequently helps. (Flashbots/private relay is an advanced add-on you chose to skip for now.)
+* **MEV exposure**: Public mempool means arbs can be copied or sandwiched. Keeping `MIN_PROFIT` firm and scanning frequently helps.
 
 ---
 
