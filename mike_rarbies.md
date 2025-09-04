@@ -17,7 +17,7 @@ A small system that **hunts and executes token price gaps** between Uniswap-V2-s
    * Calls your contract to execute when profit clears your threshold.
    * Optionally keeps token **allowances topped up** and **sweeps balances** back to your wallet.
 
-No Flashbots, no Aave, no v3 — **V2 only** (exactly as you asked).
+No Flashbots, no Aave, no v3 — **V2 only** .
 
 ---
 
