@@ -124,21 +124,6 @@ You can toggle triangular arbs on/off.
 
 ---
 
-## How you operate it (human workflow)
-
-1. **Deploy** the executor contract and set yourself as owner.
-2. **Fund** the contract with a small amount of one **base token** (e.g., WETH) to start.
-3. **Fill the config** (RPC, Multicall3, routers, factories, BASE\_TOKENS, profit floor).
-4. **Start** the service.
-5. **Watch logs** for discovered pairs, detected opportunities, and executions.
-6. **Tune**:
-
-   * Raise/lower `MIN_PROFIT_WEI` to control trade frequency.
-   * Add/remove items in `BASE_TOKENS`.
-   * (Optional) Set a `TOKENS_ALLOWLIST` to speed up or de-risk.
-7. **Withdraw or sweep** profits back to your wallet as desired (can be automatic via sweep settings).
-
----
 
 ## Costs, profits, and reality checks
 
